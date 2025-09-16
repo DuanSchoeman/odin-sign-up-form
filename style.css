@@ -10,4 +10,179 @@
 
 body {
     font-family: "open_sansitalic", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
   }
+
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+.left-wing{
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url('./images/DSC_0035.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  font-size: 48px;
+  padding: 50px 0px 50px;
+  color: white;
+  text-align: center;
+}
+
+.left-footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 10px 0px 10px;
+  text-align: center;   
+  color: white;
+}
+
+.left-footer span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.right-wing {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-section {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 40px 50px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.4;
+  height: 35vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.top-section p {
+  margin: 0 0 20px 0; /* Remove default margins, add space between paragraphs */
+}
+
+.top-section p:last-child {
+  margin-bottom: 0; /* Remove margin from last paragraph */
+}
+
+.top-section em {
+  font-style: italic;
+}
+
+
+.bottom-section {
+  background-color: #f9f9f9; /* Same as top section */
+  height: 35vh;
+  padding: 40px 50px;
+  font-size: 18px;
+}
+
+.create-account-btn {
+  background-color: #596D48; /* Green color to match your theme */
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px; /* Space between button and login text */
+  display: block; /* Makes button full width or allows centering */
+}
+
+.create-account-btn:hover {
+  background-color: #4a5a3d; /* Darker green on hover */
+}
+
+.bottom-section p {
+  margin: 0; /* Remove default paragraph margin */
+}
+
+.login-link {
+  color: #596D48;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+  color: #4a5a3d;
+}
+
+
+.mid-section {
+  background-color: #ffffff; /* White background for form section */
+  padding: 20px 50px;
+}
+
+
+.mid-section fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.mid-section legend {
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.field-group {
+  width: calc(50% - 10px);
+}
+
+.field-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.field-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
